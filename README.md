@@ -1,3 +1,3 @@
 # FlaMe-QoL
 
-intial release, just increase the number in the config file.
+added some more functionalities, just need a proper readme, but the config names should be self explanatory.
