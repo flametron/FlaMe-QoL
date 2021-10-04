@@ -1,18 +1,51 @@
-{
-    "WalkOverweightLimits":{
-        "x":400,
-        "y":400
+{   
+    "noFog":true,
+    "useMasterForWeightLimit":true,
+    "masterWeightLimit":600,
+    "separateWeightLimits":{
+        "WalkOverweightLimits":{
+            "x":400,
+            "y":400
+        },
+        "BaseOverweightLimits":{
+            "x":400,
+            "y":400
+        },
+        "SprintOverweightLimits":{
+            "x":400,
+            "y":400
+        },
+        "WalkSpeedOverweightLimits":{
+            "x":400,
+            "y":400
+        }
     },
-    "BaseOverweightLimits":{
-        "x":400,
-        "y":400
+    "changeMoneyStack":true,
+    "stacks":{
+        "rubles":1000000000,
+        "dollars":1000000000,
+        "euros":1000000000
     },
-    "SprintOverweightLimits":{
-        "x":400,
-        "y":400
+    "changeHealth":true,
+    "health":{
+        "changeHydration":true,
+        "hydration":1000,
+        "changeEnergy":true,
+        "energy":1000
     },
-    "WalkSpeedOverweightLimits":{
-        "x":400,
-        "y":400
-    }
+    "GodModeEnabled": true,
+    "GodMode": {
+        "enabled": true,
+        "bodyParts": {
+            "Head": 200000,
+            "Chest": 50000,
+            "Stomach": 10000,
+            "LeftArm": 10000,
+            "RightArm": 10000,
+            "LeftLeg": 10000,
+            "RightLeg": 10000
+        }
+    },
+    "EnableChristmas":true,
+    "EnableHalloween":true
 }

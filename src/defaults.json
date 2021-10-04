@@ -1,0 +1,17 @@
+{
+    "health":{
+        "hydration":100,
+        "energy":100
+    },
+    "Health": {
+        "bodyParts": {
+            "Head": 35,
+            "Chest": 85,
+            "Stomach": 70,
+            "LeftArm": 60,
+            "RightArm": 60,
+            "LeftLeg": 65,
+            "RightLeg": 65
+        }
+    }
+}
